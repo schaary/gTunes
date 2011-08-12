@@ -1,0 +1,7 @@
+
+# compiled classes
+target/*
+
+# Project file by IDEA IDE
+.idea/
+*.iml

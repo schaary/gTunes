@@ -5,7 +5,7 @@ class Song {
     String artist
     Integer duration
 
-
+    Album album
     static constraints = {
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="openmind.urz.uni-halle.de" name="gtunes.StoreControllerTests" tests="1" time="0.898" timestamp="2011-08-12T12:29:04">
+  <properties />
+  <testcase classname="gtunes.StoreControllerTests" name="testRenderHomepage" time="0.882" />
+  <system-out><![CDATA[--Output from testRenderHomepage--
+]]></system-out>
+  <system-err><![CDATA[--Output from testRenderHomepage--
+]]></system-err>
+</testsuite>

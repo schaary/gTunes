@@ -7,5 +7,6 @@ class Song {
 
     Album album
     static constraints = {
+        duration(min: 1)
     }
 }

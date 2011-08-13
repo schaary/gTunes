@@ -11,7 +11,12 @@ class SongTests extends GrailsUnitTestCase {
         super.tearDown()
     }
 
-    void testSomething() {
+    void testMinimumDuration() {
+        mockDomain(Song)
 
+        def song = new Song(duration: 0)
+
+        assertFalse('validation should have failed', song.validate())
+        assertEquals('min', song.errors.duration)
     }
 }

@@ -1,6 +1,6 @@
 
 # compiled classes
-target/*
+./target/
 
 # Project file by IDEA IDE
 .idea/
